@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';  // Import your Navbar component
-import { Hero } from './pages';
+import { Hero, Services } from './pages';
 
 const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -15,11 +15,12 @@ const App = () => {
   }, [isDarkMode]);
 
   return (
-    <div className="flex flex-col bg-white dark:bg-gray-900 text-black dark:text-white min-h-screen">
+    <div className="bg-white dark:bg-gray-900 text-black dark:text-white min-h-screen">
       {/* Toggle Button for Dark Mode */}
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
-      <main className="flex-grow">
+      <main className="flex-grow px-4 md:px-8 lg:px-16">
         <Hero />
+        <Services />
       </main>
     </div>
   );

@@ -1,4 +1,4 @@
 import Hero from './hero'
+import Services from './Services'
 
-
-export { Hero }
+export { Hero, Services }
