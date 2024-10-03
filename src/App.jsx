@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';  // Import your Navbar component
-import { Hero, Services } from './pages';
+import {Navbar, Footer} from './components';  // Import your Navbar component
+ // Import your Footer component
+import { Hero, Services, Companies, Comments } from './pages';
 
 const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -21,7 +22,10 @@ const App = () => {
       <main className="flex-grow px-4 md:px-8 lg:px-16">
         <Hero />
         <Services />
+        <Companies />
+        <Comments />
       </main>
+      <Footer  isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />  
     </div>
   );
 };

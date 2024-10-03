@@ -46,7 +46,7 @@ export default function Navbar({ isDarkMode, setIsDarkMode }) {
       {/* Mobile Menu - Shown when isMenuOpen is true */}
       {isMenuOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden">
-          <div className="absolute top-20 right-4 left-4 bg-teal-700 dark:bg-gray-800 p-6 rounded-3xl z-50 ">
+          <div className="absolute top-20 right-4 left-4 bg-white dark:bg-gray-800 p-6 rounded-3xl  z-50 ">
             <ul className="space-y-4 text-center">
               <li><a href="#" className="block py-2 hover:underline hover:text-teal-300 dark:hover:text-gray-300 transition duration-300">Product</a></li>
               <li><a href="#" className="block py-2 hover:underline hover:text-teal-300 dark:hover:text-gray-300 transition duration-300">Blog</a></li>
