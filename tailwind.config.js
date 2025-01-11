@@ -1,5 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 
+// @ts-ignore
+const tailwindClipPath = require('tailwind-clip-path');
+
 export default {
   darkMode: 'class',
   content: [
@@ -19,7 +22,7 @@ export default {
   plugins: [
     require('@tailwindcss/forms'),
     // Add this plugin
-    require('tailwind-clip-path'),
+    tailwindClipPath,
   ],
 }
 
