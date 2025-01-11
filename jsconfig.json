@@ -1,4 +1,5 @@
 {
+    // Removed schema reference due to timeout error
     "compilerOptions": {
       "checkJs": false
     },
