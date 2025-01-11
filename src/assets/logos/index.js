@@ -12,6 +12,7 @@ import google from './google.png'
 import xiaomi from './xiaomi.png'
 import catalyst from './catalyst.png'
 
+
 export {
     amd, 
     apple, 
