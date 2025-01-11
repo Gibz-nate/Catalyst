@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-// @ts-ignore
-const tailwindClipPath = require('tailwind-clip-path');
+import tailwindClipPath from 'tailwind-clip-path';
 
 export default {
   darkMode: 'class',
