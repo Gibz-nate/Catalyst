@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
+import forms from '@tailwindcss/forms';
 import tailwindClipPath from 'tailwind-clip-path';
 
 export default {
@@ -19,8 +20,7 @@ export default {
     },
   },
   plugins: [
-    require('@tailwindcss/forms'),
-    // Add this plugin
+    forms,
     tailwindClipPath,
   ],
 }
