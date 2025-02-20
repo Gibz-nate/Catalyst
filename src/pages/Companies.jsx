@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { amd, apple, cisco, dji, huawei, nvidia, tesla, safaricom } from '../assets/logos'
 
 export default function CompaniesWorkedWith() {
@@ -16,7 +16,7 @@ export default function CompaniesWorkedWith() {
   return (
     <section className="py-16 overflow-hidden bg-slate-800 rounded-b-lg">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center text-white mb-4">Companies We've Worked With</h2>
+        <h2 className="text-3xl font-bold text-center text-white mb-4">Companies We&apos;ve Worked With</h2>
         <p className="text-xl text-center text-white  mb-12">
           Trusted by industry leaders worldwide
         </p>

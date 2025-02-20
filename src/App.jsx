@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect} from 'react';
 import {Navbar, Footer} from './components';  // Import your Navbar component
-import {bg} from './assets/images';
+// import {bg} from './assets/images';
 import { Hero, Services, Companies, Comments } from './pages';
-import { text } from 'framer-motion/client';
+// import { text } from 'framer-motion/client';
 import { motion } from 'framer-motion';
 
 

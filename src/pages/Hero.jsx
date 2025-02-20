@@ -1,5 +1,5 @@
-import React, {useRef, useState, useEffect} from 'react'
-import {bg} from '../assets/images'
+// import React, {useRef, useState, useEffect} from 'react'
+// import {bg} from '../assets/images'
 
 export default function HeroSection() {
   return (

@@ -15,7 +15,7 @@ export default function FooterWithContact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you would typically handle the form submission
+    //  handle the form submission
     console.log('Form submitted:', { name, email, message });
     // Reset form fields
     setName('');
@@ -113,14 +113,14 @@ export default function FooterWithContact() {
               </ul>
               <div className="mt-8">
                 <h3 className="text-xl font-semibold mb-2">Our Office</h3>
-                <p>123 SaaS Street</p>
-                <p>Tech City, TC 12345</p>
-                <p>United States</p>
+                <p>031 Acacia Street</p>
+                <p>Tatu City, TC 12345</p>
+                <p>Ruiru, Kiambu</p>
               </div>
             </div>
           </div>
           <div className="mt-12 pt-8 border-t border-gray-800 text-center">
-            <p>&copy; 2023 Your SaaS Company. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Catalyst. All rights reserved.</p>
           </div>
         </div>
       </footer>
